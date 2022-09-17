@@ -1,7 +1,9 @@
 <html>
 <head>
-	<title>My First Page</title>
+	<title>Mini-Project By Rachana</title>
+  
 	<style>
+    
     div{
         background-color:#aeb4bb;
         row-gap: 60px;
@@ -18,23 +20,30 @@
         margin-left: 70px;  
     }
     img{
-        border-radius: 30px;
-        box-shadow: none;
+         border-radius: 30px;
+         border-right: 20px;
+         border-bottom: 20px;
+         border-left: 0px;
+         border-top:0px;
+         border-right-color: black;
+         border-bottom-color: black;
+         border-style:solid;
+    
+    }
+    img:hover{
+     opacity: .8;
+       transform: scale(1.0.5); 
+       border-right: 100px;
+         border-bottom: 100px;
+         border-left: 0px;
+         border-top:0px;
+      border-right-color: #d81159;
+      border-bottom-color: #d81159;
     }
     header{
         font-size: 100px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         background-image: linear-gradient(orange,white,green);
-    }
-    #ANTHEM{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 150px;
-    background-image: linear-gradient(orange,white,green); 
-    }
-    p{
-        font-size: 100px;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: #006a71;
     }
     footer{
         font-size: 100px;
@@ -50,8 +59,16 @@
         text-decoration: none;
         color:#8367c7;
     }
+    #audio1{
+      background-color: darkslategray;
+     
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+    }
 	</style>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body>
     <header align="center">Historical Places in India</header> 
@@ -69,21 +86,8 @@
         
         </div>
       </div>
-      <p id="ANTHEM" align="center" style="background-color:darkslategray ;">National Anthem</p>
-      <p align="center"><br><br><b>"Jana Gana Mana Adhinayaka Jaya He<br>
-        Bharat Bhagya Vidhata<br>
-        Punjab Sindh Gujarat Maratha<br>
-        Dravida Utkala Banga<br>
-        <br>
-        Vindhya Himachal Yamuna Ganga<br>
-        Ucchala Jaladhi Taranga<br>
-        Tubh Shubha Name Jage<br>
-        Tubh Shubha Ashisha Mange<br>
-        Gahe Tubh Jaya Gatav<br>
-        Jana Gan Mangaldayak Jay He<br>
-        Bharat Bhagya Vidhata<br>
-        Jaye He ! Jaye He ! Jaye He !<br>
-        Jaye,Jaye,Jaye,Jaye He "</b><br><br></p>
+     
+      <div id="audio1" align="center" ><br><br><audio src="National Anthem.mpeg" controls="controls" width="300" height="32"></audio><br><br><br></div>
         <footer align="right"><b>Designed And Developed By: Rachana Kulthe</b></footer>
 </body>
 </html>
